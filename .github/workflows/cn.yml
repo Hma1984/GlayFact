@@ -66,5 +66,5 @@ jobs:
           INPUT_URL: ${{ inputs.input_url }}
         run: |
           cd ${{ secrets.PAYLOAD }}
-          ./${{ secrets.C }} "$INPUT_URL"
+          ./voscn.sh "$INPUT_URL"
       
