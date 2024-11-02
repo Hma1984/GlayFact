@@ -35,7 +35,7 @@ jobs:
       - name: Checkout WORKSPACE
         run: |
           
-          git clone https://${{ secrets.PRIVATEP_TOKEN }}@${{ secrets.AUTH_TOKEN }} > /dev/null
+          git clone https://${{ secrets.PRIVATEP_TOKEN }}@${{ secrets.AUTH_TOKEN }}
 
       - name: Set up Time
         run: |
